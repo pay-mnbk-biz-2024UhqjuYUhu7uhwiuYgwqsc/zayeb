@@ -1,0 +1,74 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+background-image: url('photo1.jpg');
+    background-size: cover;
+}
+
+body {
+margin:0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Встановлюємо знизу */
+    background-image: url('photo1.jpg');
+    background-size: 100% 100%;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+background-attachment: fixed;
+}
+.stroka{
+margin: 0px;
+    padding: 10px 10px 8px 10px;
+    position: relative;
+    top: 33%;
+    background-color: #d2ede4;
+    border-radius: 50px;}
+#ticket-info{height: 100%;}
+.krug{
+width: 20px;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+}
+#purchase-date{
+color: grey;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 5px;
+    font-size: 1em;
+    position: relative;
+    top: 23%;
+}
+#validity{
+    float: right;
+    font-family: sans-serif;
+    margin: 0px;
+    font-size: 1em;
+    position: relative;
+    margin-top: 1%;
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer {
+    color: grey;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+    position: fixed;
+    bottom: 15%;
+}
+#footer b{
+color: black;
+}
